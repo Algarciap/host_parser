@@ -14,6 +14,7 @@ In order to make Host Parser work, be sure you have Python installed as well as 
 ## How does it work?
 You will need to:
 - Have your `.log` file in the root directory.
+    - There is currently an `examples.log` file in the root directory referenced also at `host_parser.py`. Be sure you change that for your desired file.
 - Launch the program via terminal to `python main.py`.
 - Fill the inputs with the requested information.
 

@@ -7,7 +7,7 @@ end_datetime = input('Please enter the end date in the following format YYYY-MM-
 host_name = input('Please enter the host name: ')
 
 # Opens the required file
-with open('connections.log', 'r', encoding='utf-8') as test:
+with open('examples.log', 'r', encoding='utf-8') as test:
     lines = test.readlines()
 data = []
 for line in lines:
